@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel='stylesheet' href="src/sass/main.scss"></link>
+        <script type="module" src="src/js/controller.js"> </script>
+		<title>Test</title>
+        <style>
+            body {
+                background-color: aliceblue;
+                margin: 0;
+                padding: 0;
+            }
+            label {
+                min-width: 320px;
+            }
+            .input {
+                margin: 7px; 
+                width: 100%;
+            }
+            .container_Main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100vh;
+            }
+            .container_Cors {
+                display: flex;
+                justify-content: center;
+                margin: 10px;
+            }
+        </style>
+	</head>
+	<body>
+        <div class="container">
+            <div class="container_Main"></div>
+            <form class="search">
+                <input class="search_Field" type="text" name="search_Field" />
+            </form>
+            <div class="results"></div>
+        </div>
+		<noscript>Please enable JavaScript to view this application.</noscript>
+	</body>
+</html>
